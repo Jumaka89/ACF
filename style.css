@@ -1,0 +1,61 @@
+/*Style Body*/
+body{
+    background-width: 80%;
+  background: #005FB6;
+  background: -webkit-linear-gradient(to right, #005FB6, #52AE32);
+  background: linear-gradient(to right, #005FB6, #52AE32);
+  min-height: 100vh;
+}
+
+/*Style des titres*/
+h1{
+    color: transparent;
+background: #000000;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+h2{
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-decoration: underline;
+
+}
+
+/*Style Header*/
+header{
+    width: 90%;
+    border-radius: 5px;
+}
+
+/*Style Barre de navigation*/
+.navbar-nav > li{
+    font-size: 1.3rem;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    border-color: #005FB6; 
+    background-color: #f5f5f5;
+}
+
+
+/*Style du Main index.html*/
+.container{
+    background-color: #eee;
+    border: 7px inset rgba(112,112,112,0.24);
+border-radius: 30px 30px 30px 30px;
+}
+
+#foto_intervenant{
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(112,112,112,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(112,112,112,0);
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*Style du Footer*/
+footer ul{
+    margin-top : 20px;
+    margin-bottom : 20px;
+}
+
