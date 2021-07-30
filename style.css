@@ -40,7 +40,7 @@ header{
 }
 
 
-/*Style du Main index.html*/
+/*Style du main index.html*/
 .container{
     background-color: #eee;
     border: 7px inset rgba(112,112,112,0.24);
@@ -53,9 +53,24 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15p
     border-radius: 5px 5px 5px 5px;
 }
 
+/*Style main evenements.html*/
+.card-title{
+    color: #707070;
+}
+
+.container a:hover{
+    text-decoration: none;
+}
+
 /*Style du Footer*/
 footer ul{
     margin-top : 20px;
     margin-bottom : 20px;
 }
+
+footer a:hover{
+    text-decoration: none;
+}
+
+
 
