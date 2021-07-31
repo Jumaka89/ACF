@@ -1,20 +1,20 @@
 /*Style Body*/
 body{
     background-width: 80%;
-  background: #005FB6;
-  background: -webkit-linear-gradient(to right, #005FB6, #52AE32);
-  background: linear-gradient(to right, #005FB6, #52AE32);
-  min-height: 100vh;
+    background: #005FB6;
+    background: -webkit-linear-gradient(to right, #005FB6, #52AE32);
+    background: linear-gradient(to right, #005FB6, #52AE32);
+    min-height: 100vh;
 }
 
 /*Style des titres*/
 h1{
     color: transparent;
-background: #000000;
--webkit-background-clip: text;
--moz-background-clip: text;
-background-clip: text;
-text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    background: #000000;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 }
 
 h2{
@@ -23,10 +23,9 @@ h2{
 
 }
 
-/*Style Header*/
-header{
-    width: 90%;
-    border-radius: 5px;
+/*Style des paragraphes*/
+p{
+    text-align: justify;
 }
 
 /*Style Barre de navigation*/
@@ -40,17 +39,18 @@ header{
 }
 
 
+
 /*Style du main index.html*/
 .container{
     background-color: #eee;
     border: 7px inset rgba(112,112,112,0.24);
-border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
 }
 
 /*Style img*/
 #foto_intervenant, section img{
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(112,112,112,0); 
-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(112,112,112,0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(112,112,112,0);
     border-radius: 5px 5px 5px 5px;
 }
 
